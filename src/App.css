@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  width:70%;
+  margin:auto;
+
+}
+.App #tape{
+  padding:5px;
+  display:inline-block;
+  width:250px;
+  margin-right:20px;
+  background:none;
+  outline:none;
+  border:none;
+  border-bottom:3px solid #fff;
+}
+.App button{
+  padding:12px;
+  border-radius:50%;
+  background:rgb(107, 3, 46);
+  color:#fff;
+  border:none;
+  outline:none;
+
+}
+
+.completed .fa-check{
+  background:#000;
+  color:#fff;
+}
+.todo-list{
+  background:rgb(247, 120, 158);
+  margin:25px auto;
+  border-radius:20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:80%;
+  position:relative;
+}
+.todo-list.completed{
+  background:rgb(143, 88, 104) !important;
+
+}
+.todo-icon{
+  padding-right:25px;
+}
+.todo-icon .fa:hover {
+  background-color: rgb(123, 84, 160);
+
+}
+.todo-icon .fa {
+  padding:10px;
+  border-radius:50%;
+  color:#fff;
+  background-color: blueviolet;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 5px;
+  cursor:pointer;
+
+
+}
+
+
+.todo{
+  display: block;
+  font-size:17px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(1, 54, 34);padding:18px;
+  text-align: left;
+}
+.App h1{
+  margin:50px;
+  color:rgb(77, 70, 70);
+  text-transform:uppercase;
+}
+.App #form .input{
+  margin:25px 0;
+  border-bottom: 3px solid black;
+  padding-bottom: 3px;
+}
+.App #form select{
+  color:#fff;
+  background: inherit;
+  font-size:19px;
+  padding:10px;
+  box-shadow:0 0 8px #000;
+  color:black;
+}
+@media (min-width:768px){
+  .App #form{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+}
